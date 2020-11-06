@@ -10,16 +10,18 @@ namespace SalesWebMVC.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index() //IActionResult = interface de supertipo para todo o resultado de alguma ação
         {
             return View();
         }
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles Web MVC App from C# Course."; //dicionario do c#
+            ViewData["Name"] = "Lucas Santana";
+            ViewData["email"] = "lucas.s.s.silva@hotmail.com";
 
-            return View();
+            return View(); // vai manipular as páginas 
         }
 
         public IActionResult Contact()
