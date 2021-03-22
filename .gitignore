@@ -360,3 +360,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+SalesWebMVC/.vscode/tasks.json
+sonar-project.properties
+SalesWebMVC/.vscode/launch.json
